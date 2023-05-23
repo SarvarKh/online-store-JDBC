@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4eb4428-2870-414c-80e9-c2796b8005f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/DataAccessObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/DataTransferObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/customer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orders.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/salesperson.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stored_proc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d2033b5-9436-4790-959e-3db13bf76fb3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d2033b5-9436-4790-959e-3db13bf76fb3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d2033b5-9436-4790-959e-3db13bf76fb3/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d2033b5-9436-4790-959e-3db13bf76fb3/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JDBCExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JDBCExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "last_opened_file_path": "/Users/sarvarkhalimov/Documents/epam/Learning-JDBC/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +69,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JDBCExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.JDBCExecutor" />
@@ -91,7 +102,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684825071612</updated>
-      <workItem from="1684825072661" duration="5992000" />
+      <workItem from="1684825072661" duration="6075000" />
+      <workItem from="1684835139265" duration="23000" />
+      <workItem from="1684835180633" duration="16000" />
+      <workItem from="1684835269446" duration="421000" />
     </task>
     <servers />
   </component>
