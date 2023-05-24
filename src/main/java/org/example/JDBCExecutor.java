@@ -12,12 +12,9 @@ public class JDBCExecutor {
 
         try {
             Connection connection = dcm.getConnection();
-            CustomerDAO customerDAO = new CustomerDAO(connection);
-            Customer customer = customerDAO.findById(10002);
-            System.out.println(customer.getId() + " " + customer.getFirstName() + " " + customer.getEmail());
-            customerDAO.delete(10003);
-            customer = customerDAO.findById(10003);
-            System.out.println(customer.getId() + " " + customer.getFirstName() + " " + customer.getEmail());
+            OrderDAO orderDAO = new OrderDAO(connection);
+            Order order = orderDAO.findById(1000);
+            System.out.println(order);
         } catch (SQLException e){
           e.printStackTrace();
         }
